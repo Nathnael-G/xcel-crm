@@ -1,4 +1,5 @@
-import Button from "@components/ui/button.jsx";
+import { Button } from "@/components/ui/button"
+
 
 const page = () => {
   return (
@@ -44,7 +45,9 @@ const page = () => {
                   Forgot Password?
                 </a>
               </div>
-              
+              <Button className="bg-sky-500  hover:bg-sky-600 transition-colors w-full text-center font-semibold font-poppins">
+                      Login
+                    </Button>
 
             </form>
             <div className="pt-8 text-base font-semibold leading-7">
